@@ -19,7 +19,7 @@ For this task we will use Keras and Tensorflow libraries using the following tec
 
 The outcome of this model will be a TensorFlow Lite file to be exported and used in a mobile app.
 
-###***Datasets:***
+### ***Datasets:***
 
 To train the net we will use a set of pictures of around 1000 genuine products and another set of around 10000 images of fake
 labeled products. We also have a balanced set of soft label products and hinge lid producsts which have a different disposition of
