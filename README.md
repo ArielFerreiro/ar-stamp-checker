@@ -1,4 +1,4 @@
-# ar-stamp-checker: TOBACCO STAMPS CHECKER :: ARGENTINA LABELS
+# TOBACCO STAMPS CHECKER :: ARGENTINA LABELS
 
 Deep learning model to verify tobacco tax stamps in Argentina. 
 
