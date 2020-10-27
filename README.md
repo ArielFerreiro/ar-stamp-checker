@@ -5,7 +5,8 @@ Deep learning model to verify tobacco tax stamps in Argentina.
 
 <img src="http://blogs.infobae.com/maldita-nicotina/files/2013/07/FOTOOO-1.jpg"
      alt="Tobacco Stamps Argentina"
-     style="float: left; margin-right: 10px; hight: 120px" />
+     style="float: left; margin-right: 10px; height: 120px" />
+     
 The idea is to develop a model that given a picture (taken with a mobile phone) will:
 
 1) Detect automatically the positioning of the label in the image
