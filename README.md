@@ -1,11 +1,9 @@
 # ar-stamp-checker
 Deep learning model to verify tobacco tax stamps in Argentina. 
 
-![Tobacoo Stamps](http://blogs.infobae.com/maldita-nicotina/files/2013/07/FOTOOO-1.jpg)
-
 <img src="http://blogs.infobae.com/maldita-nicotina/files/2013/07/FOTOOO-1.jpg"
      alt="Tobacco Stamps Argentina"
-     style="float: left; margin-right: 10px; height: 120px" />
+     style="float: left; margin-right: 10px; height: 50%; width: 50%;" />
      
 The idea is to develop a model that given a picture (taken with a mobile phone) will:
 
