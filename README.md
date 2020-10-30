@@ -28,3 +28,13 @@ the label on the pack as you can see in the picture below.
 To be able to train reasonable amoung of data we will use Albumentation techniques.
 
 To annotate bounding boxes we used https://www.makesense.ai/ tool.
+
+### ***Work Approach:***
+
+We will split the work in two phases or attempts. The first will be to create a model to classify the stamps between genuine or fake
+using an inception CNN. 
+
+The second step will be to create another model to automatically detect the label position in the original image. 
+
+The app will use both models to do the job. First will use the stamp detecto to check the stamp position and crop the original image to
+the bounding box detected. After using the classifier we will be able to let the user know what kind of label it is being analized.
