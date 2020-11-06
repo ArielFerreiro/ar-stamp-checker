@@ -26,6 +26,10 @@ def upload_file():
         file = request.files['file']
         if file:
             n = int(len(os.listdir('mysite/static'))/2)
+            if n>10:
+                lista = os.listdir('mysite/static')
+                for a in lista:
+                    os.remove('mysite/static/'+a)
             filename = f'mysite/static/imagen{n}.jpg'
             file.save(filename)
             p = predict.predict(filename)[0]*154
